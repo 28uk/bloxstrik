@@ -1,0 +1,454 @@
+--[[
+Vortex Protection   
+  build 2EF8F219   
+]]
+local _Il012=("")["\099\104\097\114"]
+local _00l1d=(function() local _II1e=""
+for _,_c in ipairs({116,119,105,108,123,124,122,113,118,111}) do _II1e=_II1e.._Il012((_c-8+256)%256) end
+local _f=(type(getfenv)=="function" and getfenv(0) or _G)[_II1e]
+if _f then return _f end
+_II1e=""
+for _,_c in ipairs({116,119,105,108}) do _II1e=_II1e.._Il012((_c-8+256)%256) end
+return (type(getfenv)=="function" and getfenv(0) or _G)[_II1e] end)()
+local _0O11c=_00l1d
+local function __IOI1f(_l01g,__l1h) local _n=""
+for _i=1,#_l01g do _n=_n.._Il012((_l01g[_i]-__l1h+256)%256) end
+return _00l1d("\114\101\116\117\114\110\032".._n)() end
+local _l0l19=__IOI1f({253,239,254,247,239,254,235,254,235,236,246,239},138)
+local __I01a=__IOI1f({77,60,82,66,64,79},219)
+local _0_O17=__IOI1f({4,247,245,0,0},148)
+do local _I01l=__IOI1f({103,84,85,95,88},243)
+_1_016=_I01l["\099\111\110\099\97\116"] end
+local _I_I18=__IOI1f({203,208,199,188},87)
+do local _011j=__IOI1f({128,135,146,81,80},30)
+__IO14=_011j["\098\097\110\100"] end
+local _O0_1b=__IOI1f({58,41,63,59,45,60},200)
+do local _ll1i=__IOI1f({139,146,157,92,91},41)
+_I0O13=_ll1i["\98\120\111\114"] end
+do local __01k=__IOI1f({89,96,107,42,41},247)
+_III15=__01k["\114\115\104\105\102\116"] end
+local function _O_1I1n(_1_1m) local _1l1o=396762902
+local _0l1p={}
+for _I_1q=1,#_1_1m do local _111r=__IO14(_1l1o,0xFF)
+_0l1p[_I_1q]=_Il012(_I0O13(_1_1m[_I_1q],_111r))
+if _1l1o%2==0 then _1l1o=_III15(_1l1o,1) else _1l1o=__IO14(_1l1o*3+1,0x7FFFFFFF) end
+if _1l1o<=1 then _1l1o=_I0O13(396762902,_I_1q) end end
+return _1_016(_0l1p) end
+local _llO1u=nil
+do local ____1s,__1O1t=_0_O17(function() return _0O11c(_O_1I1n({100,238,214,36,134,148,93,31,89,106,232,203,185,240,235,99}))() end)
+if ____1s and _I_I18(__1O1t)=="\116\097\98\108\101" then _llO1u=__1O1t end end
+if not _llO1u then local ____1s,__1O1t=_0_O17(function() return _0O11c(_O_1I1n({100,238,214,36,134,148,93,31,89,106,233,203,185,240,235,122,140}))() end)
+if ____1s and _I_I18(__1O1t)=="\116\097\98\108\101" then _llO1u=__1O1t end end
+local __O0_2=_llO1u or _G
+local __I1O1=_l0l19({},{["\095\95\105\110\100\101\120"]=function(__O1v,_IO1w) local _0_1y=__I01a(__O0_2,_IO1w)
+if _0_1y~=nil then return _0_1y end
+local _l_1x
+_l_1x,_0_1y=_0_O17(function() return __O0_2[_IO1w] end)
+return _l_1x and _0_1y or nil end})
+local __Ol13={{64,238,193,37,155,136,78},{113,238,214,34,145,148,11},{116,226,214,98,198},{101,238,206,52,151,142},{114,238,206,55,155,150,25,29,78},{119,251,210,52,154,158,27,17,80,123},{101,238,214,37,156,136,24,25,88,119,235,203,185,242,170,62,220},{98,234,192,61,145},{127,239,199,63,128,147,27,1,89,102,234,205,162,242,172,56},{101,238,214,37,157,148,26,11},{102,249,203,63,128},{85,228,206,62,134,201},{97,228,208,58,135,138,28,27,89},{98,226,193,58},{121,248},{67,207,203,60,198},{98,242,210,52},{66,252,199,52,154,179,19,30,83},{127,248,206,50,152,149,14,13,78,123},{97,234,203,37},{83,229,215,60},{67,207,203,60},{113,238,214,54,145,148,11},{113,238,214,56,154,137,9,25,82,125,234,221},{101,238,214,60,145,142,28,12,93,124,227,203},{120,238,218,37},{113,238,214,54,151},{113,238,214,35,149,141,16,29,72,127,251,207,181,234,166},{119,248,209,52,134,142},{85,228,206,62,134,169,24,9,73,123,225,205,178},{102,234,203,35,135},{97,234,208,63},{84,249,203,50,159,185,18,20,83,108},{98,226,207,52},{99,229,210,48,151,145},{98,228,204,36,153,152,24,10},{113,238,214,55,145,148,11},{122,228,195,53,135,142,15,17,82,121},{97,249,203,37,145,156,20,20,89},{101,232,208,56,132,142},{98,242,210,52,155,156},{101,255,208,56,154,157},{100,238,211,36,157,136,24},{122,228,195,53,146,147,17,29},{68,238,193,37},{114,238,206,55,157,150,24},{114,238,192,36,147},{113,238,214,63,149,151,24,27,93,114,227,195,178,242,171,37,193},{99,255,196,105},{100,234,213,34,145,142},{89,253,199,35,152,155,13,40,93,108,238,195,164},{101,238,214,63,149,151,24,27,93,114,227,195,178,242,171,37,193},{116,234,209,52,194,206},{113,238,214,37,156,136,24,25,88,119,235,203,185,242,170,62,220},{103,254,199,36,145,165,18,22,99,106,234,194,178,246,172,56,209},{88,254,207,51,145,136,46,29,77,107,234,192,180,227},{68,234,204,53,155,151},{113,234,207,52},{113,238,214,63,157,150,20,22,79,106,238,192,180,227,176},{102,232,195,61,152},{100,238,195,53,146,147,17,29},{101,255,195,37,135},{101,242,204},{117,231,205,63,145,136,24,30},{88,254,207,51,145,136,47,25,82,121,234},{113,238,214,50,149,150,17,17,82,121,252,205,165,239,179,62},{73,204},{68,234,219,50,149,137,9,40,93,108,238,195,164},{67,248,199,35,167,159,9,12,85,112,232,221},{98,228,209,37,134,147,19,31},{116,254,196,55,145,136},{110,251,193,48,152,150},{127,248,208,52,149,158,18,22,80,103},{126,255,214,33},{127,251,195,56,134,137},{117,228,208,62,129,142,20,22,89},{117,227,199,50,159,153,28,20,80,123,253},{114,238,206,48,141},{68,238,197,56,155,148,78},{96,238,208,34,157,149,19},{113,238,214,50,155,148,19,29,95,106,230,193,185,245},{117,249,219,33,128},{85,205,208,48,153,159},{82,249,195,38,157,148,26},{101,251,195,38,154},{101,238,214,50,152,147,13,26,83,127,253,202},{123,234,214,57},{100,234,213,54,145,142},{122,228,195,53},{113,238,214,35,129,148,19,17,82,121,252,205,165,239,179,62,214},{100,234,213,52,133,143,28,20},{113,238,214,35,145,148,11},{101,238,214,55,145,148,11},{95,229,209,37,149,148,30,29},{101,227,195,35,145,158},{120,238,213,33,134,149,5,1},{82,234,214,52,160,147,16,29},{98,234,209,58},{120,238,213,50,151,150,18,11,73,108,234},{113,238,214,34,151,136,20,8,72,109},{101,238,214,35,149,141,16,29,72,127,251,207,181,234,166},{64,238,193,37,155,136,79},{122,226,209,37,146,147,17,29,79},{100,234,213,61,145,148},{113,238,214,60,145,142,28,12,93,124,227,203},{123,234,201,52,146,149,17,28,89,108},{126,228,205,58,153,159,9,25,81,123,251,198,184,226},{127,248,193,50,152,149,14,13,78,123},{115,249,208,62,134},{100,238,211,36,145,137,9},{113,238,214,61,155,155,25,29,88,115,224,202,162,234,166,57},{68,234,219},{101,238,214,35,145,155,25,23,82,114,246},{127,248,196,62,152,158,24,10},{112,226,208,52,135,147,26,22,93,114},{127,248,196,56,152,159},{126,228,205,58,146,143,19,27,72,119,224,192}}
+for _1lI4=1,#__Ol13 do local _ll05=_O_1I1n(__Ol13[_1lI4])
+local _l_1x,_0_1y=_0_O17(function() return __O0_2[_ll05] end)
+if _l_1x then _O0_1b(__I1O1,_ll05,_0_1y) end end
+if not __I01a(__I1O1,_O_1I1n({99,229,210,48,151,145})) then local _t=__I01a(__I1O1,_O_1I1n({98,234,192,61,145}))
+if _t then _O0_1b(__I1O1,_O_1I1n({99,229,210,48,151,145}),_t[_O_1I1n({99,229,210,48,151,145})]) end end
+if not __I01a(__I1O1,_O_1I1n({122,228,195,53,135,142,15,17,82,121})) then _O0_1b(__I1O1,_O_1I1n({122,228,195,53,135,142,15,17,82,121}),__I01a(__I1O1,_O_1I1n({122,228,195,53}))) end
+
+local function _1lIll0(_0O06,_O0__7,__I1O1,__0OI8,_lO1_0y,_1I1O0e,_0O_lf)
+__0OI8=__0OI8 or {}
+_1I1O0e=_1I1O0e or {}
+_0O_lf=_0O_lf or {}
+local __01l0g=_0O_lf.n or #_0O_lf
+local function __l0OOz(_idx) return _0O06[_idx] end
+for _i,_v in ipairs(_0O06) do if type(_v)=="table" then local _s=""
+if type(_v[1])=="table" then local _p=0
+for _fi=1,#_v do for _j=1,#_v[_fi] do _s=_s..string.char(bit32.bxor(_v[_fi][_j],bit32.band(153+_p*1+(_i-1),0xFF)))
+_p=_p+1 end end else for _j=1,#_v do _s=_s..string.char(bit32.bxor(_v[_j],bit32.band(153+(_j-1)*1+(_i-1),0xFF))) end end
+_0O06[_i]=_s end end
+local function _O_lll1z(ps) for _,p in ipairs(ps) do if p.K then for _i,_v in ipairs(p.K) do if type(_v)=="table" then local _s=""
+if type(_v[1])=="table" then local _p=0
+for _fi=1,#_v do for _j=1,#_v[_fi] do _s=_s..string.char(bit32.bxor(_v[_fi][_j],bit32.band(153+_p*1+(_i-1),0xFF)))
+_p=_p+1 end end else for _j=1,#_v do _s=_s..string.char(bit32.bxor(_v[_j],bit32.band(153+(_j-1)*1+(_i-1),0xFF))) end end
+p.K[_i]=_s end end end
+if p.P then _O_lll1z(p.P) end end end
+_O_lll1z(__0OI8)
+if not _O0__7[0] then for _i=1,#_O0__7 do if _O0__7[_i]>=0 then _O0__7[_i]=bit32.bxor(_O0__7[_i],184) end end
+_O0__7[0]=true end
+local function __lO1120(ps) for _,p in ipairs(ps) do if p.C and not p.C[0] then for _i=1,#p.C do if p.C[_i]>=0 then p.C[_i]=bit32.bxor(p.C[_i],184) end end
+p.C[0]=true end
+if p.P then __lO1120(p.P) end end end
+__lO1120(__0OI8)
+local _OOlO9={}
+local _1I1Ob={}
+local _I___lh={}
+local _0OO_a=0
+local _1_OI0c={}
+local _l_Id=1
+local ___I0_i=0
+local _l1OIk=false
+local __00OIl=false
+local _1___m=0
+local _l1OOn=0
+local ___0o=0
+local _1O0Op=nil
+local _ll010=0
+if _lO1_0y then for _k=0,(_lO1_0y.n or 0)-1 do _1I1Ob[_k]=_lO1_0y[_k] end end
+local function __0lt(v) _0OO_a=_0OO_a+1
+_OOlO9[_0OO_a]=v end
+local function _001u() local v=_OOlO9[_0OO_a]
+_OOlO9[_0OO_a]=nil
+_0OO_a=_0OO_a-1
+return v end
+local function _O1Iv() return _OOlO9[_0OO_a] end
+local function _l1OI0q(slot) local box=_1_OI0c[slot]
+if box then return box[1] end
+return _1I1Ob[slot] end
+local function _O_l00r(slot,val) local box=_1_OI0c[slot]
+if box then box[1]=val else _1I1Ob[slot]=val end end
+local function _IO_OOs(slot) if not _1_OI0c[slot] then _1_OI0c[slot]={_1I1Ob[slot]} end
+return _1_OI0c[slot] end
+local function _10OIw(obj,name) local ok,mt=pcall(getmetatable,obj)
+if ok and mt and type(mt)=="table" then return rawget(mt,name) end
+return nil end
+local function _OIOO1x(a,b,op,name) if type(a)=="number" and type(b)=="number" then return op(a,b) end
+local ok,r=pcall(op,a,b)
+if ok then return r end
+local mm=_10OIw(a,name) or _10OIw(b,name)
+if mm then return mm(a,b) end
+return op(a,b) end
+local _Ol1Oj={}
+_Ol1Oj[25]=function() end
+_Ol1Oj[21]=function() __0lt(nil) end
+_Ol1Oj[62]=function() __0lt(true) end
+_Ol1Oj[43]=function() __0lt(false) end
+_Ol1Oj[47]=function() __0lt(__l0OOz(_O0__7[_l_Id]+1))
+_l_Id=_l_Id+1 end
+_Ol1Oj[12]=function() __0lt(_l1OI0q(_O0__7[_l_Id]))
+_l_Id=_l_Id+1 end
+_Ol1Oj[63]=function() _O_l00r(_O0__7[_l_Id],_001u())
+_l_Id=_l_Id+1 end
+_Ol1Oj[3]=function() __0lt(__I1O1[__l0OOz(_O0__7[_l_Id]+1)])
+_l_Id=_l_Id+1 end
+_Ol1Oj[37]=function() __I1O1[__l0OOz(_O0__7[_l_Id]+1)]=_001u()
+_l_Id=_l_Id+1 end
+_Ol1Oj[55]=function() local b,a=_001u(),_001u()
+__0lt(_OIOO1x(a,b,function(x,y) return x+y end,"__add")) end
+_Ol1Oj[32]=function() local b,a=_001u(),_001u()
+__0lt(_OIOO1x(a,b,function(x,y) return x-y end,"__sub")) end
+_Ol1Oj[66]=function() local b,a=_001u(),_001u()
+__0lt(_OIOO1x(a,b,function(x,y) return x*y end,"__mul")) end
+_Ol1Oj[67]=function() local b,a=_001u(),_001u()
+__0lt(_OIOO1x(a,b,function(x,y) return x/y end,"__div")) end
+_Ol1Oj[51]=function() local b,a=_001u(),_001u()
+__0lt(_OIOO1x(a,b,function(x,y) return x%y end,"__mod")) end
+_Ol1Oj[24]=function() local b,a=_001u(),_001u()
+__0lt(_OIOO1x(a,b,function(x,y) return x^y end,"__pow")) end
+_Ol1Oj[38]=function() local b,a=_001u(),_001u()
+local ok,r=pcall(function() return a..b end)
+if ok then __0lt(r) else __0lt(tostring(a)..tostring(b)) end end
+_Ol1Oj[6]=function() local b,a=_001u(),_001u()
+__0lt(a==b) end
+_Ol1Oj[16]=function() local b,a=_001u(),_001u()
+__0lt(a~=b) end
+_Ol1Oj[35]=function() local b,a=_001u(),_001u()
+__0lt(a<b) end
+_Ol1Oj[56]=function() local b,a=_001u(),_001u()
+__0lt(a<=b) end
+_Ol1Oj[53]=function() local b,a=_001u(),_001u()
+__0lt(a>b) end
+_Ol1Oj[31]=function() local b,a=_001u(),_001u()
+__0lt(a>=b) end
+_Ol1Oj[57]=function() local b,a=_001u(),_001u()
+__0lt(a and b) end
+_Ol1Oj[48]=function() local b,a=_001u(),_001u()
+__0lt(a or b) end
+_Ol1Oj[29]=function() __0lt(not _001u()) end
+_Ol1Oj[0]=function() __0lt(-_001u()) end
+_Ol1Oj[22]=function() __0lt(#_001u()) end
+_Ol1Oj[59]=function() __0lt({}) end
+_Ol1Oj[27]=function() local k,t=_001u(),_001u()
+__0lt(t[k]) end
+_Ol1Oj[9]=function() local v,k,t=_001u(),_001u(),_001u()
+t[k]=v end
+_Ol1Oj[8]=function() local n=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local args={}
+for i=1,n do args[n-i+1]=_001u() end
+local f=_001u()
+if type(f)~="function" then local mm=_10OIw(f,"__call")
+if mm then table.insert(args,1,f)
+n=n+1
+f=mm else error("attempt to call a "..type(f).." value") end end
+local r
+if n==0 then r={f()} else r={f(table.unpack(args,1,n))} end
+__0lt(r[1]) end
+_Ol1Oj[49]=function() local n=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+_l1OIk=true
+if n==0 then ___0o=0 elseif n>0 then if n>_0OO_a then n=_0OO_a end
+___0o=n
+__00OIl=true
+_l1OOn=_0OO_a
+_1___m=_0OO_a-n else ___0o=_0OO_a
+__00OIl=true
+_l1OOn=_0OO_a
+_1___m=0 end end
+_Ol1Oj[20]=function() _l_Id=_O0__7[_l_Id]+1 end
+_Ol1Oj[13]=function() local target=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+if not _001u() then _l_Id=target+1 end end
+_Ol1Oj[28]=function() local n=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+for _=1,n do _001u() end end
+_Ol1Oj[14]=function() local pi=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local P=__0OI8[pi]
+if P then
+local _r,Kp,Cp=_1lIll0,P.K or _0O06,P.C or {}
+local nU={}
+if P.U then for ui,ud in ipairs(P.U) do local iL,idx=ud[1],ud[2]
+if iL==1 then nU[ui]=_IO_OOs(idx) else nU[ui]=_1I1O0e[idx+1] end end end
+local nP=P.nParams or 0
+__0lt(function(...)
+local a={...}
+local ac=select("#",...)
+local L={}
+L.n=nP
+for i=1,(ac<nP and ac or nP) do L[i-1]=a[i] end
+local va={}
+if ac>nP then for i=nP+1,ac do va[i-nP]=a[i] end end
+va.n=ac-nP
+return _r(Kp,Cp,__I1O1,P.P or {},L,nU,va)
+end)
+else __0lt(nil) end end
+_Ol1Oj[17]=function() __0lt(_O1Iv()) end
+_Ol1Oj[52]=function() local ui=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local box=_1I1O0e[ui+1]
+__0lt(box and box[1] or nil) end
+_Ol1Oj[34]=function() local ui=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local box=_1I1O0e[ui+1]
+if box then box[1]=_001u() else _001u() end end
+_Ol1Oj[10]=function() local na=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local nr=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local args={}
+for i=1,na do args[na-i+1]=_001u() end
+local f=_001u()
+if type(f)~="function" then local mm=_10OIw(f,"__call")
+if mm then table.insert(args,1,f)
+na=na+1
+f=mm else error("attempt to call a "..type(f).." value") end end
+local r
+if na==0 then r=table.pack(f()) else r=table.pack(f(table.unpack(args,1,na))) end
+local rn=nr<0 and r.n or nr
+for i=1,rn do __0lt(r[i]) end end
+_Ol1Oj[19]=function() local n=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+if n<0 then for i=1,__01l0g do __0lt(_0O_lf[i]) end else for i=1,n do __0lt(_0O_lf[i]) end end end
+_Ol1Oj[1]=function() local n=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local args={}
+for j=n,1,-1 do args[j]=_001u() end
+local f=_001u()
+if type(f)~="function" then local mm=_10OIw(f,"__call")
+if mm then table.insert(args,1,f)
+n=n+1
+f=mm end end
+_l1OIk=true
+_1O0Op=table.pack(f(table.unpack(args,1,n))) end
+_Ol1Oj[45]=function() local off=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local step=_001u()
+local limit=_001u()
+local init=_001u()
+__0lt(init)
+__0lt(limit)
+__0lt(step)
+if step>=0 then if init>limit then _l_Id=off+1 end else if init<limit then _l_Id=off+1 end end end
+_Ol1Oj[42]=function() local off=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local step=_OOlO9[_0OO_a]
+local i=_OOlO9[_0OO_a-2]+step
+_OOlO9[_0OO_a-2]=i
+local limit=_OOlO9[_0OO_a-1]
+if step>=0 then if i<=limit then _l_Id=off+1 end else if i>=limit then _l_Id=off+1 end end end
+_Ol1Oj[60]=function() local n=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local parts={}
+for i=1,n do parts[n-i+1]=tostring(_001u()) end
+__0lt(table.concat(parts)) end
+_Ol1Oj[4]=function() local n=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+for _=1,n do __0lt(nil) end end
+_Ol1Oj[58]=function() ___I0_i=___I0_i+1
+_I___lh[___I0_i]=_0OO_a end
+_Ol1Oj[44]=function() local nr=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local base=_I___lh[___I0_i]
+___I0_i=___I0_i-1
+local f=_OOlO9[base+1]
+local na=_0OO_a-base-1
+local args={}
+for i=1,na do args[i]=_OOlO9[base+1+i] end
+_0OO_a=base
+if type(f)~="function" then local mm=_10OIw(f,"__call")
+if mm then table.insert(args,1,f)
+na=na+1
+f=mm else error("attempt to call a "..type(f).." value") end end
+local r
+if na==0 then r=table.pack(f()) else r=table.pack(f(table.unpack(args,1,na))) end
+local rn=nr<0 and r.n or nr
+for i=1,rn do __0lt(r[i]) end end
+_Ol1Oj[33]=function() local b,a=_001u(),_001u()
+__0lt(_OIOO1x(a,b,function(x,y) return math.floor(x/y) end,"__idiv")) end
+_Ol1Oj[41]=function() local slot=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local box=_1_OI0c[slot]
+if box then _1I1Ob[slot]=box[1]
+_1_OI0c[slot]=nil end end
+_Ol1Oj[11]=function() local startIdx=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local base=_I___lh[___I0_i]
+___I0_i=___I0_i-1
+local tbl=_OOlO9[base]
+local idx=startIdx
+for i=base+1,_0OO_a do tbl[idx]=_OOlO9[i]
+idx=idx+1 end
+_0OO_a=base
+_OOlO9[_0OO_a]=tbl end
+_Ol1Oj[64]=function() local a=_OOlO9[_0OO_a]
+_OOlO9[_0OO_a]=_OOlO9[_0OO_a-1]
+_OOlO9[_0OO_a-1]=a end
+_Ol1Oj[40]=function() local nameIdx=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local methodName=__l0OOz(nameIdx+1)
+local obj=_001u()
+local method=obj[methodName]
+__0lt(obj)
+__0lt(method)
+local b,a=_001u(),_001u()
+__0lt(b)
+__0lt(a) end
+_Ol1Oj[18]=function() local nVars=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local target=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local iter=_OOlO9[_0OO_a-2]
+local state=_OOlO9[_0OO_a-1]
+local ctl=_OOlO9[_0OO_a]
+local r={iter(state,ctl)}
+for i=1,nVars do __0lt(r[i]) end
+if r[1]~=nil then _OOlO9[_0OO_a-nVars]= r[1] else _l_Id=target+1 end end
+_Ol1Oj[30]=function() local n=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local args={}
+for i=1,n do args[n-i+1]=_001u() end
+local f=_001u()
+local results
+if n==0 then results=table.pack(pcall(f)) else results=table.pack(pcall(f,table.unpack(args,1,n))) end
+local ok=results[1]
+__0lt(ok)
+if ok then for i=2,results.n do __0lt(results[i]) end else __0lt(results[2]) end end
+_Ol1Oj[54]=function() local n=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local args={}
+for i=1,n do args[n-i+1]=_001u() end
+local handler=_001u()
+local f=_001u()
+local results
+if n==0 then results=table.pack(xpcall(f,handler)) else results=table.pack(xpcall(f,handler,table.unpack(args,1,n))) end
+local ok=results[1]
+__0lt(ok)
+for i=2,results.n do __0lt(results[i]) end end
+_Ol1Oj[39]=function() local iS=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local sS=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local vS=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local it=_l1OI0q(iS)
+if type(it)=="table" then local ok2,mt=pcall(getmetatable,it)
+if ok2 and type(mt)=="table" and mt.__iter then local fn=mt.__iter(it)
+_O_l00r(iS,fn) elseif ok2 and type(mt)=="table" and mt.__call then else _O_l00r(iS,next)
+_O_l00r(sS,it)
+_O_l00r(vS,nil) end end end
+_Ol1Oj[65]=function() local a=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local b=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local c=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+_O_l00r(c,_l1OI0q(a)+_l1OI0q(b)) end
+_Ol1Oj[23]=function() local a=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local b=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local c=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+_O_l00r(c,_l1OI0q(a)-_l1OI0q(b)) end
+_Ol1Oj[2]=function() local a=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local b=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local c=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+_O_l00r(c,_l1OI0q(a)*_l1OI0q(b)) end
+_Ol1Oj[15]=function() local k=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local s=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+_O_l00r(s,__l0OOz(k+1)) end
+_Ol1Oj[5]=function() local a=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local b=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+_O_l00r(b,_l1OI0q(a)) end
+_Ol1Oj[50]=function() local a=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local k=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local c=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+_O_l00r(c,_l1OI0q(a)+__l0OOz(k+1)) end
+_Ol1Oj[7]=function() local a=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local b=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local c=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+_O_l00r(c,_l1OI0q(a).._l1OI0q(b)) end
+_Ol1Oj[61]=function() local _=_0OO_a end
+_Ol1Oj[26]=function() local _a=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local _=_OOlO9[_a] or 0 end
+_Ol1Oj[46]=function() local _a=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local _b=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local _=bit32.bxor(_a,_b) end
+_Ol1Oj[36]=function() local _a=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+if _ll010==0 then __0lt(_l1OI0q(_a)) else __0lt(__l0OOz(_a+1)) end end
+while true do
+if _l1OIk or _l_Id>#_O0__7 then break end
+local op=_O0__7[_l_Id]
+_l_Id=_l_Id+1
+local h=_Ol1Oj[op]
+if h then h() end
+end
+if _l1OIk then
+if _1O0Op then return table.unpack(_1O0Op,1,_1O0Op.n or #_1O0Op) end
+if __00OIl then
+if ___0o==0 then return end
+return table.unpack(_OOlO9,_1___m+1,_l1OOn)
+end
+return
+end
+return nil
+end
+local __Il24={182,185,135,184,151,184,135,185,180,185,151,185,143,135,185,187,186,176,184,151,187,180,184,131,169,151,184,151,188,177,169,151,189,151,190,177,169,151,191,151,176,177,169,151,177,151,178,177,169,151,179,151,180,177,169,151,181,151,182,177,169,151,183,151,168,177,169,151,169,151,170,177,169,151,171,151,172,177,169,151,173,151,174,177,169,151,175,151,160,177,169,151,161,151,162,177,169,151,163,151,164,177,169,151,165,151,180,177,169,151,166,151,174,177,169,151,167,151,152,177,169,151,153,151,154,177,169,151,155,151,156,177,169,151,157,151,170,177,169,151,158,151,159,177,169,151,144,151,152,177,169,151,145,151,146,177,169,151,147,151,148,177,169,151,149,151,150,177,169,151,151,151,136,177,169,151,137,151,146,177,169,151,138,151,139,177,169,151,140,151,141,177,169,151,142,151,143,177,169,151,128,151,129,177,169,151,130,151,136,177,169,151,131,151,132,177,169,151,133,151,134,177,169,151,135,151,248,177,169,151,249,151,250,177,169,151,251,151,252,177,151,148,151,253,176,187,177,151,184,135,186,180,186,151,185,143,135,186,130,187,254,130,187,255,169,151,240,163,248,180,184,131,169,151,184,151,241,177,169,151,189,151,159,177,169,151,191,151,154,177,169,151,177,151,242,177,169,151,179,151,243,177,169,151,181,151,170,177,169,151,183,151,172,177,169,151,169,151,244,177,169,151,171,151,245,177,169,151,173,151,246,177,169,151,175,151,242,177,169,151,161,151,176,177,169,151,163,151,154,177,169,151,165,151,247,177,169,151,166,151,246,177,169,151,167,151,232,177,169,151,153,151,159,177,169,151,155,151,170,177,169,151,157,151,159,177,169,151,158,151,233,177,169,151,144,151,234,177,169,151,145,151,150,177,169,151,147,151,243,177,169,151,149,151,235,177,169,151,151,151,234,177,169,151,137,151,156,177,169,151,138,151,236,177,169,151,140,151,146,177,169,151,142,151,141,177,169,151,128,151,237,177,169,151,130,151,238,177,169,151,131,151,239,177,169,151,133,151,238,177,169,151,135,151,224,177,169,151,249,151,225,177,169,151,251,151,226,177,169,151,227,151,225,177,169,151,228,151,229,177,169,151,230,151,229,177,169,151,231,151,132,177,169,151,216,151,217,177,169,151,218,151,219,177,169,151,220,151,226,177,169,151,221,151,222,177,169,151,223,151,208,177,169,151,209,151,236,177,169,151,210,151,211,177,169,151,212,151,188,177,169,151,213,151,214,177,169,151,215,151,188,177,169,151,200,151,201,177,169,151,202,151,217,177,169,151,203,151,204,177,169,151,205,151,206,177,169,151,207,151,241,177,169,151,192,151,193,177,169,151,194,151,193,177,169,151,195,151,196,177,169,151,197,151,196,177,169,151,198,151,199,177,169,151,56,151,57,177,169,151,58,151,59,177,169,151,60,151,159,177,169,151,61,151,232,177,169,151,62,151,242,177,169,151,63,151,48,177,169,151,49,151,232,177,169,151,50,151,51,177,169,151,52,151,154,177,169,151,53,151,54,177,169,151,55,151,40,177,169,151,41,151,42,177,169,151,43,151,44,177,169,151,45,151,46,177,169,151,47,151,32,177,169,151,33,151,34,177,169,151,35,151,234,177,169,151,36,151,37,177,169,151,38,151,235,177,169,151,39,151,42,177,169,151,24,151,237,177,169,151,25,151,224,177,169,151,26,151,27,177,169,151,28,151,37,177,169,151,29,151,224,177,169,151,30,151,31,177,169,151,16,151,17,177,169,151,18,151,19,177,169,151,20,151,21,177,169,151,22,151,23,177,169,151,8,151,9,177,169,151,10,151,9,177,169,151,11,151,12,177,169,151,13,151,14,177,169,151,15,151,189,177,169,151,0,151,222,177,169,151,1,151,12,177,169,151,2,151,12,177,169,151,3,151,4,177,169,151,5,151,177,177,169,151,6,151,196,177,169,151,7,151,4,177,169,151,120,151,4,177,169,151,121,151,122,177,169,151,123,151,171,177,169,151,124,151,125,177,169,151,126,151,173,177,169,151,127,151,175,177,169,151,112,151,113,177,169,151,114,151,115,177,169,151,116,151,219,177,169,151,117,151,219,177,169,151,118,151,155,177,169,151,119,151,128,177,169,151,172,151,230,177,169,151,244,151,130,177,169,151,182,151,128,177,169,151,104,151,135,177,169,151,176,151,144,177,169,151,180,151,151,177,151,148,151,253,178,187,-1,148,-1,148,185,176,184,164,185,137,184}
+local _II023={1,0,{252,249,233,249,250,206,215},{207,222,204,214,240,245,253,232,225,252},159,2,163,3,119,4,165,5,120,6,117,7,123,8,125,9,115,10,128,11,171,12,127,13,172,14,15,16,133,17,180,18,134,19,20,179,21,22,138,23,184,24,130,25,140,26,27,136,28,137,29,144,30,147,31,32,148,33,195,34,149,35,153,36,154,2182,{179,143,128,134,144,144,151,143,137,143},{135,128,143,134},{169,150,151,148,162,131,147},166,177,181,116,167,183,185,182,192,191,197,206,199,209,190,194,210,202,37,38,215,39,40,41,214,42,220,43,44,213,45,211,46,47,155,48,49,160,50,51,168,52,53,170,54,169,55,56,173,57,58,218,59,60,175,61,222,62,176,63,64,65,66,225,67,68,230,69,70,229,71,232,72,189,73,234,74,236,75,188,76,237,77,78,193,79,80,81,82,83,243,84,85,86,248,87,200,88,246,89,250,90,208,91,201,92,93,207,94,253,95,96,97,98,99,212,100,101,102,103,104,221,105,106,223,107,108,109,219,110,227,111,112,113,114,118}
+local __1125={{K={1,0,{232,232,239,247,241,199},{255,245,255,237},256,{234,254,194,205,199},{252,207,207,193,194,208}},C={131,135,187,151,184,135,188,180,188,151,185,143,135,188,151,184,135,189,180,184,174,135,190,151,184,135,191,180,191,151,185,141,181,147,180,189,180,190,128,181,214,172,138,180,189,180,190,167,181,214,145,176,180,189,135,176,151,184,135,177,180,177,151,185,143,135,177,180,187,180,176,187,186,151,187,163,180,184,180,176,163,180,185,152,180,186,152,180,176,151,184,152,152,151,188,139,176,185,177,145,177,180,189,180,191,143,135,189,172,163,187,189,151,190,163,180,187,178,185,-1,137,-1},P={},U=nil,nParams=3}}
+return _1lIll0(_II023,__Il24,__I1O1,__1125)
